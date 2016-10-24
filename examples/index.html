@@ -1,0 +1,70 @@
+<html>
+    <head>
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link href="scaler.v1.css" rel="stylesheet">
+    </head>
+    <body>
+        
+        <style>
+            .red {
+                background:red;
+            }
+            .blue {
+                background:blue;
+            }
+            .green{
+                background:green;
+            }
+        </style>
+
+        <div class="container">
+            <div class='row'>
+                <div class="col-sm-12">
+                    These containers will be scaled
+                    based on their width and screensize.
+                    <code>
+                        <pre>
+                        
+                            <div class='scale-lg-200 scale-md-150 scale-sm-100 scale-xs-50'></div>
+                        
+                        </pre>
+                    </code>
+                    <ul>
+                        <li>
+                            > 1200px : container height 200% of width
+                        </li>
+                        <li>
+                             > 992px : container height 200% of width
+                        </li>
+                        <li>
+                             > 768px : container height 150% of width
+                        </li>
+                        <li>
+                             > 0PX : container height 50% of width
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class='row'>
+                <div class="col-sm-4">
+                    <div class="scale-lg-200 scale-md-150 scale-sm-100 scale-xs-50">
+                        <div class='blue'>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="scale-lg-200 scale-md-150 scale-sm-100 scale-xs-50">
+                        <div class='green'>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="scale-lg-200 scale-md-150 scale-sm-100 scale-xs-50">
+                        <div class='blue'>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
