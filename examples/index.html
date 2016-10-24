@@ -8,12 +8,28 @@
         <style>
             .red {
                 background:red;
+                    vertical-align: middle;
+    text-align: center;
+    font-size: 12vw;
+    color: white;
             }
             .blue {
                 background:blue;
+                    vertical-align: middle;
+    text-align: center;
+    font-size: 12vw;
+    color: white;
             }
             .green{
                 background:green;
+                    vertical-align: middle;
+    text-align: center;
+    font-size: 12vw;
+    color: white;
+            }
+
+            .zeropad {
+                padding:0px;
             }
         </style>
 
@@ -41,7 +57,7 @@
                     </ul>
                 </div>
             </div>
-            <div class='row'>
+            <div class='row '>
                 <div class="col-sm-4">
                     <div class="scale-xs-50 scale-lg-200 scale-md-150 scale-sm-100 ">
                         <div class='blue'>
@@ -61,6 +77,61 @@
                     </div>
                 </div>
             </div>
+
+<br/>
+<br/>
+             <div class='row'>
+                <div class="col-sm-12">
+                    These containers will be scaled
+                    based on their width and screensize.
+
+                    <ul>
+                        <li>
+                            Blue<br/>
+                            height is 100% of parents width
+                        </li>
+                        <li>
+                            green<br/>
+                            height is 50% of parents width
+                        </li>
+                        <li>
+                            red<br/>
+                            height is 50% of parents width
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+
+            <div class='row'>
+                <div class="col-sm-6 zeropad">
+                    <div class="scale-xs-100 ">
+                        <div class='blue'>
+                            100%
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 zeropad">
+                
+                    <div class="scale-xs-50 ">
+                        <div class='green'>
+                            50%
+                        </div>
+                    </div>
+
+                        
+                    <div class="scale-xs-50">
+                        <div class='red'>
+                            50%
+                        </div>
+                    </div>
+                        
+                    </div>
+                </div>
+            </div>
+
+
+
         </div>
     </body>
 </html>
