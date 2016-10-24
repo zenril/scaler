@@ -68,9 +68,9 @@ Copyright (c) Aaron Meredith
 
             $outerDiv .= $class.", ";
             $innerDiv .= $class." > div, ";
-            if($data['min-width']){
+           // if($data['min-width']){
                 $output .= $class . $css . $endOfLine;
-            }
+            //}
         }
 
         if($data['min-width']){
